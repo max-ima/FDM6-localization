@@ -201,6 +201,20 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "Аргументи повинні містити змінну %path%"
 
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "Вирішення проблем"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "Потрібен перезапуск"
+
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "Повернутися до налаштувань за замовчуванням"
@@ -293,31 +307,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "Додаткові налаштування"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "Виберіть тему"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "Якщо системна тема невідома, буде використано світлу тему."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "Вибрати"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "Всі"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "Лише завантаження"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "Лише вивантаження"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "Завершено"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "Зупинені"
 
@@ -341,40 +357,82 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "Не завершено"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "Файли, яких нема"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "Всі файли"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "Активні"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "Завершено"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "Не завершено"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "Шукати в завантаженнях..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "Сортувати"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "Старий"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "Найновіший"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "А-Я"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Я-А"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "Розмір: зростання"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "Розмір: спадання"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "Статус: зростання"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "Статус: спадання"
 
@@ -511,6 +569,11 @@ msgstr "Отримання даних від віддаленого %1 (%2)..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "Не вдалося."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "Вибрано: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1012,24 +1075,32 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "Додати завантаження"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Завантажити"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "Повідомити про проблему"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "Завантаження з цього сайту заборонено"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "Додати завантаження"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "Завантажити"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "Додати завантаження"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1223,6 +1294,26 @@ msgid "Port"
 msgstr "Порт"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "Кількість з'єднань"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "З'єднання відсутні"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Хост"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Порт"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "Кількість з'єднань"
 
@@ -1522,13 +1613,17 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показати загальну швидкість завантаження в іконці Закріплення"
 
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 #, qt-format
 msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
+msgid "Help shape %1"
 msgstr ""
 
 msgctxt "DonateBannerStrip|"
-msgid "You help us grow and progress"
+msgid "Suggest & Support"
 msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
@@ -1563,50 +1658,6 @@ msgstr "Оновити завантаження"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "Закрити"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "Перевірка файлів"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "Злиття потоків даних"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "Додано в чергу"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "Запит інформації"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "Зупинено"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "Перевірка файлів"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "Злиття потоків даних"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "Запит інформації"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "н/д"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "Додано в чергу"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "Завершено"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1732,6 +1783,41 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "Відсутній диск"
 
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "Перевірка файлів"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "Злиття потоків даних"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "Запит інформації"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "Додано в чергу"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "Зупинені"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "Завершено"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "н/д"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1801,6 +1887,11 @@ msgstr "Список завантажень пустий. Додайте нов�
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "З'єднати з віддаленим %1"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "Пошук"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1973,18 +2064,6 @@ msgid "Choose files..."
 msgstr "Вибрати файли..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "Високий"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "Нормальний"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "Низький"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "Перейменування файла"
 
@@ -2115,34 +2194,6 @@ msgstr "Зупинено"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "Розмір файлу невідомий"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "Перевірка файлів"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "Злиття потоків даних"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "Запит інформації"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "н/д"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "Додано в чергу"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "Завершено"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "н/д"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2459,6 +2510,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "За спаданням"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "Сортувати"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "Старий"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "Найновіший"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "А-Я"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Я-А"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "Розмір: зростання"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "Розмір: спадання"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "Тип файлу:"
@@ -2599,6 +2685,16 @@ msgstr "Низьк"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "Завершено"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "Ім'я"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "Пріоритет"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2767,6 +2863,31 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "За використання мобільних даних у роумінгу може стягуватися додаткова плата."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "Виберіть тему"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "Якщо системна тема невідома, буде використано світлу тему."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "Стиль ІК"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "Новий"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "Класичний"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "Статус"
@@ -2872,6 +2993,20 @@ msgstr "Файл"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "Пріоритет"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "Збережено в"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "Хід"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2980,40 +3115,6 @@ msgstr "Невідомо"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "віддалене керування"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "Браузер"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "Налаштування"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "Технічна підтримка"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "Повідомити про проблему"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "Відключити від віддаленого %1"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "З'єднати з віддаленим %1"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "Про програму"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "Вийти"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3166,6 +3267,54 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "Вийти"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "Браузер"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "Налаштування"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "Технічна підтримка"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "Повідомити про проблему"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "Відключити від віддаленого %1"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "З'єднати з віддаленим %1"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "Про програму"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "Вийти"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Режим равлика звільняє канал Інтернету не зупиняючи завантаження."
@@ -3185,18 +3334,6 @@ msgstr[2] "%n завантажень вибрано."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "Загальний розмір:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "Низьк"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "Середня"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "Висок"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3809,6 +3946,11 @@ msgstr "Файли"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "З'єднання"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5486,6 +5628,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "Відправити"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "Повідомити про проблему"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "Заголовок"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "Опис"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "Ім'я"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "E-mail"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "Додати %1 файл журналу (рекомендовано)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "Обов’язкові поля"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "Відправлення"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "Відправити"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "Завантажити субтитри"
@@ -5618,6 +5805,42 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "Низька"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "Середня"
+
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "Висока"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Режим равлика"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "Змінити обмеження трафіку"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "Необмежена"
@@ -5683,6 +5906,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "Змінити обмеження трафіку"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5691,10 +5922,6 @@ msgstr "Не може бути більше %1"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "Нове завантаження"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "Новий файл"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5731,8 +5958,28 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Розмір: %1"
 
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "Новий файл"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "Завантажити"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "Новий файл"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
 msgstr ""
 
 msgctxt "UiCoreBase|"

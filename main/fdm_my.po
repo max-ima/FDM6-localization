@@ -3,8 +3,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Language: uk_UA\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: my_MM\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
@@ -204,6 +204,20 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "ဆိုလိုရင်းများတွင် တန်ဖိုးရှင် %path% ပါဝင်ရမည်"
 
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "အမှားရှာခြင်း"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "ပြန်စရန် လိုအပ်သည်"
+
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "မူလအပြင်အဆင်များသို့ ပြန်သွားရန်"
@@ -296,31 +310,29 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "အဆင့်မြင့် အပြင်အဆင်များ"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "ဒီဇိုင်းပုံစံ ရွေးရန်"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "စနစ်၏ ဒီဇိုင်းပုံစံကို မသိပါက အလင်းပုံစံကို သုံးပါမည်။"
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "အားလုံး"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr ""
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "ပြီးဆုံး"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr ""
 
@@ -344,40 +356,74 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "မပြီးဆုံး"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "ပျောက်နေသည့် ဖိုင်များ"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "ဖိုင်အားလုံး"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "လုပ်နေသည်"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "မပြီးဆုံး"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr ""
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "စဉ်"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr ""
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr ""
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr ""
 
@@ -517,6 +563,11 @@ msgstr "အဝေးထိန်း %1 မှ ဒေတာများ ရယူ
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "ကျရှုံး"
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "ရွေးထားသည်၊ %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1019,24 +1070,32 @@ msgid "OK"
 msgstr "အိုကေ"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "ဒေါင်းလုပ်ထည့်ပါ"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "ဒေါင်းလုပ်"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "အိုကေ"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "ပြဿနာကို တင်ပြရန်"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "ဒီဆိုဒ်မှ ဒေါင်းလုပ်ခြင်းကို ခွင့်မပြုပါ"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "ဒေါင်းလုပ်ထည့်ပါ"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "ဒေါင်းလုပ်"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "အိုကေ"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "ဒေါင်းလုပ်ထည့်ပါ"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1231,6 +1290,26 @@ msgid "Port"
 msgstr "Port"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "ဆက်သွယ်မှု အရေအတွက်"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "ဆက်သွယ်မှုများ မရှိပါ"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "Host"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "Port"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "ဆက်သွယ်မှု အရေအတွက်"
 
@@ -1529,13 +1608,17 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ဆိပ်သင်္ကေတတွင် စုစုပေါင်း အပ်လုပ်အမြန်နှုန်းကို ပြပါ"
 
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 #, qt-format
 msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
+msgid "Help shape %1"
 msgstr ""
 
 msgctxt "DonateBannerStrip|"
-msgid "You help us grow and progress"
+msgid "Suggest & Support"
 msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
@@ -1571,50 +1654,6 @@ msgstr "ဒေါင်းလုပ်ကို အသစ်လုပ်ပါ"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "ပိတ်"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "တန်းစီနေ"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "ဒေတာများ တောင်းခြင်း"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "ရပ်နေ"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "ဒေတာများ တောင်းခြင်း"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "တန်းစီနေ"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "ပြီးဆုံး"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1740,6 +1779,38 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "သိုလှောင်မှု ပျောက်နေသည်"
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "ဖိုင်များ စစ်နေသည်..."
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "ဒေတာများ တောင်းခြင်း"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "တန်းစီနေ"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr ""
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "ပြီးဆုံး"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr ""
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1809,6 +1880,11 @@ msgstr "ဒေါင်းလုပ်စာရင်းက လွတ်နေ�
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "အဝေးက %1 ကို ဆက်သွယ်ပါ"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "ရှာပါ"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1981,18 +2057,6 @@ msgid "Choose files..."
 msgstr "ဖိုင်များ ရွေးပါ..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "မြင့်"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "ပုံမှန်"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "နိမ့်"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "ဖိုင်အမည်ပြောင်း"
 
@@ -2123,34 +2187,6 @@ msgstr "ရပ်နေ"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "ဖိုင်ပမာဏ မသိ"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "မီဒီယာ ထုတ်လွှင်မှုများကို ပေါင်းစည်းခြင်း"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "ဒေတာများ တောင်းခြင်း"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "တန်းစီနေ"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "ပြီးဆုံး"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr ""
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2468,6 +2504,35 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "အဆင်း"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "စဉ်"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr ""
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr ""
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "ဖိုင်အမျိုးအစား၊"
@@ -2608,6 +2673,16 @@ msgstr "နိမ့်"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "ပြီးဆုံး"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "အမည်"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "ဦးစားပေး"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2775,6 +2850,28 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "Roaming နေစဉ် မိုဘိုင်းဒေတာ အသုံးပြုခြင်းက အပိုငွေ ကုန်ကျနိုင်သည်။"
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "ဒီဇိုင်းပုံစံ ရွေးရန်"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "စနစ်၏ ဒီဇိုင်းပုံစံကို မသိပါက အလင်းပုံစံကို သုံးပါမည်။"
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr ""
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr ""
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "အခြေအနေ"
@@ -2880,6 +2977,20 @@ msgstr "ဖိုင်"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "ဦးစားပေး"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "တွင် သိမ်းခဲ့သည်"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "တိုးတက်မှု"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2988,40 +3099,6 @@ msgstr "မသိ"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "အဝေးထိန်း"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "ဘရောင်ဇာ"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "အပြင်အဆင်များ"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "အကူအညီသို့ ဆက်သွယ်ပါ"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "အလွဲတင်ပြမှုကို တင်သွင်းပါ"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "အဝေး %1 မှ ဖြုတ်ပါ"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "အဝေး %1 ကို ဆက်သွယ်ပါ"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "အပ်အကြောင်း"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "ထွက်"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3174,6 +3251,54 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "ထွက်"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "ဘရောင်ဇာ"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "အပြင်အဆင်များ"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "အကူအညီသို့ ဆက်သွယ်ပါ"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "အလွဲတင်ပြမှုကို တင်သွင်းပါ"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "အဝေး %1 မှ ဖြုတ်ပါ"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "အဝေး %1 ကို ဆက်သွယ်ပါ"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "အပ်အကြောင်း"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "ထွက်"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "ခရုက ဒေါင်းလုပ်များ ရပ်မသွားဘဲ ဘန်အကျယ်ကို လွှတ်ပေးသည်။"
@@ -3187,24 +3312,10 @@ msgctxt "MainStatusBar|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] "ဒေါင်းလုပ် %n ခု ရွေးထားသည်။"
-msgstr[1] ""
-msgstr[2] ""
 
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "စုစုပေါင်း ပမာဏ၊"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "နိမ့်"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "ပုံမှန်"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "မြင့်"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3227,8 +3338,6 @@ msgctxt "MainStatusBar_V2|"
 msgid "%n downloads selected."
 msgid_plural "%n downloads selected."
 msgstr[0] "ဒေါင်းလုပ် %n ခု ရွေးထားသည်။"
-msgstr[1] ""
-msgstr[2] ""
 
 msgctxt "MainStatusBar_V2|"
 msgid "Total size:"
@@ -3816,6 +3925,11 @@ msgstr "ဖိုင်များ"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "ဆက်သွယ်မှုများ"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "အိုကေ"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5487,6 +5601,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "တင်သွင်းပါ"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "အလွဲတင်ပြမှုကို တင်သွင်းပါ"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "ခေါင်းစဉ်"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "ဖော်ပြချက်"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "အမည်"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "အီးမေး"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "မှတ်တမ်း %1 ဖိုင်ကို ပူးတွဲပါ (အကြံပြုချက်)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "လိုအပ်သည့် အကွက်များ"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "တင်သွင်းခြင်း"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "တင်သွင်းပါ"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "စာတန်းထိုး ဒေါင်းလုပ်ပါ"
@@ -5619,6 +5778,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "နိမ့်"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "ပုံမှန်"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "မြင့်"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "ခရုနည်းလမ်း"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "သွားလာမှု ကန့်သတ်ချက်များကို ပြောင်းပါ"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "ကန့်သတ်မဲ့"
@@ -5684,6 +5881,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "သွားလာမှု ကန့်သတ်ချက်များကို ပြောင်းပါ"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5692,10 +5897,6 @@ msgstr "%1 ထက် ပိုမကြီးနိုင်ပါ"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "ဒေါင်းလုပ်အသစ်"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "ဖိုင်အသစ်"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5732,8 +5933,28 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "ပမာဏ၊ %1"
 
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "ဖိုင်အသစ်"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "ဒေါင်းလုပ်"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "ဖိုင်အသစ်"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
 msgstr ""
 
 #, fuzzy

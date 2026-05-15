@@ -201,6 +201,20 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "තර්ක වල %path% විචල්ය අඩංගු විය යුතුය"
 
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "දෝශ නිරාකරණය"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "නැවත ආරම්භ කිරීම අවශ්ය වේ"
+
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "පෙරනිමි සැකසුම් වෙත ආපසු යන්න"
@@ -293,31 +307,33 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "අධි සැකසුම්"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "තේමාව තෝරන්න"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "පද්ධති තේමාව නොදන්නේ නම්, සැහැල්ලු තේමාවක් භාවිතා කරනු ඇත."
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "තෝරන්න"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "සියලු"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "බාගත කිරීම් පමණි"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "උඩුගත කිරීම් පමණි"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "සම්පුර්ණ කර ඇත"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "නැවැත්තුවා"
 
@@ -341,40 +357,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "සම්පූර්ණ නොකළ"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "අතුරුදහන් වූ ගොනු"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "සියලු ගොනු"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "සක්රීය"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "සම්පුර්ණ කර ඇත"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "සම්පූර්ණ නොකළ"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "බාගැනීම් වල සොයන්න..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "වර්ග කරන්න"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "පරණ"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "අලුත්ම"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "ප්රමාණය අනුව: කුඩා"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "ප්රමාණය අනුව: විශාල"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "තත්වය අනුව: ආරෝහණ"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "තත්වය අනුව: අවරෝහණය"
 
@@ -511,6 +568,11 @@ msgstr "දුරස්ථ %1 (%2) වෙතින් දත්ත ලබා ග
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "අසාර්ථකයි."
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "තෝරාගත්තා: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1012,24 +1074,32 @@ msgid "OK"
 msgstr "හරි"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "බාගත එකතු කරන්න"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "බාගත කිරීම"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "හරි"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "ගැටළු වාර්ථා කරන්න"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "මෙම වෙබ් අඩවියෙන් බාගත කිරීමට අවසර නැත"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "බාගත එකතු කරන්න"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "බාගත කිරීම"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "හරි"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "බාගත එකතු කරන්න"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1223,6 +1293,26 @@ msgid "Port"
 msgstr "සම්බන්ධන අංකය"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "සම්බන්ධතා ගණන"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "කිසිම සම්බන්ධයක් නැහැ"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "සත්කාරක"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "සම්බන්ධන අංකය"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "සම්බන්ධතා ගණන"
 
@@ -1522,13 +1612,17 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ඩොක් නිරූපකයේ මුළු උඩුගත කිරීමේ වේගය පෙන්වන්න"
 
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 #, qt-format
 msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
+msgid "Help shape %1"
 msgstr ""
 
 msgctxt "DonateBannerStrip|"
-msgid "You help us grow and progress"
+msgid "Suggest & Support"
 msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
@@ -1566,50 +1660,6 @@ msgstr "බාගත යාවත්කාලීන කරන්න"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "වහන්න"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "ගොනු පරීක්ෂා කිරීම"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "මාධ්ය ප්රවාහයන් ඒකාබද්ධ කිරීම"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "ලැයිස්තුවට එකතු කර ඇත"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "තොරතුරු ඉල්ලා සිටීම"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "තාවකාලිකව නවත්වා ඇත"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "සම්පුර්ණ කර ඇත"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1735,6 +1785,37 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "තැටිය අතුරුදහන් වී ඇත"
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "ගොනු පරීක්ෂා කිරීම"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "මාධ්ය ප්රවාහයන් ඒකාබද්ධ කිරීම"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "තොරතුරු ඉල්ලා සිටීම"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "පිළිවෙලට එකතු කර ඇත"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "නැවැත්තුවා"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "සම්පුර්ණ කර ඇත"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "n/a"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1804,6 +1885,11 @@ msgstr "බාගත ලැයිස්තුව හිස්ය. නව බා�
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "සොයන්න"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1976,18 +2062,6 @@ msgid "Choose files..."
 msgstr "ගොනු තෝරන්න..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "ඉහළ"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "සාමාන්ය"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "අඩු"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "ගොනුව නැවත නම් කරන්න"
 
@@ -2118,34 +2192,6 @@ msgstr "තාවකාලිකව නවත්වා ඇත"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "නොදන්නා ගොනු ප්රමාණය"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "n/a"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr ""
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "සම්පුර්ණ කර ඇත"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "n/a"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2461,6 +2507,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "බැස යාම"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "වර්ග කරන්න"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "පරණ"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "අලුත්ම"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "ප්රමාණය අනුව: කුඩා"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "ප්රමාණය අනුව: විශාල"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "ගොනු වර්ගය:"
@@ -2601,6 +2682,16 @@ msgstr "අඩු"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "සම්පුර්ණ කර ඇත"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "නම"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "ප්රමුඛතාවය"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2768,6 +2859,31 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "රෝමිං අතරතුර ජංගම දත්ත භාවිතා කිරීමෙන් අමතර ගාස්තු අය කළ හැකිය."
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "තේමාව තෝරන්න"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "පද්ධති තේමාව නොදන්නේ නම්, සැහැල්ලු තේමාවක් භාවිතා කරනු ඇත."
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "UI ශෛලිය"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "නව"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "සම්භාව්ය"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "තත්වය"
@@ -2873,6 +2989,20 @@ msgstr "ගොනුව"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "ප්රමුඛතාවය"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr ""
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "තුල සුරකින ලදී"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "ප්රගතිය"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2981,40 +3111,6 @@ msgstr "නොදන්නා"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "දුරස්ථ පාලකය"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "බ්රව්සරය"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "සැකසුම්"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "සහාය සඳහා අමතන්න"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "දෝෂ වාර්තාවක් ඉදිරිපත් කරන්න"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "දුරස්ථ%1 වෙතින් විසන්ධි කරන්න"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "ගැන"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "අත්හරින්න"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3167,6 +3263,54 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "අත්හරින්න"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "බ්රව්සරය"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "සැකසුම්"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "සහාය සඳහා අමතන්න"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "දෝෂ වාර්තාවක් ඉදිරිපත් කරන්න"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "දුරස්ථ%1 වෙතින් විසන්ධි කරන්න"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "දුරස්ථ%1 වෙත සම්බන්ධ වන්න"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "ගැන"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "අත්හරින්න"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "Snail mode බාගත කිරීම් නැවැත්වීමකින් තොරව වේග නිදහස් කරයි."
@@ -3185,18 +3329,6 @@ msgstr[1] "%n භාගත කෙරීම් තෝරාගෙන ඇත."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "මුළු ප්රමාණය:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "අඩු"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "මධ්ය"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "ඉහළ"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3808,6 +3940,11 @@ msgstr "ගොනු"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "සම්බන්ධතා"
+
+#, fuzzy
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "හරි"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5482,6 +5619,51 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "යොමු කරන්න"
 
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "දෝෂ වාර්තාවක් ඉදිරිපත් කරන්න"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "මාතෘකාව"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "විස්තරය"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "නම"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "ඊමේල්"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "අමුණන්න%1 විස්තර ගොනු (නිර්දේශිත)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "අවශ්ය තොරතුරු"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "යොමු කෙරේ"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "යොමු කරන්න"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "උපසිරැසි බාගත කරන්න"
@@ -5614,6 +5796,44 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr ""
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "අඩු"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "මධ්ය"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "ඉහළ"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "Snail mode"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "වේග සීමාවන් වෙනස් කරන්න"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "අසීමිත"
@@ -5679,6 +5899,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "වේග සීමාවන් වෙනස් කරන්න"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5687,10 +5915,6 @@ msgstr "%1 ට වඩා වැඩි විය නොහැක"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "නව බාගත කිරීමක්"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "නව ගොනුවක්"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5727,8 +5951,28 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "ප්‍රමාණය: %1"
 
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "නව ගොනුවක්"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "බාගත කිරීම"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "නව ගොනුවක්"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
 msgstr ""
 
 #, fuzzy

@@ -202,6 +202,18 @@ msgid "Arguments must contain %path% variable"
 msgstr "인수는 %path% 변수를 포함해야 합니다"
 
 msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "문제 해결"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr "로깅 사용"
+
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "다시 시작 필요"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "기본 설정으로 돌아가기"
 
@@ -293,31 +305,27 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "고급 설정"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "테마 선택"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "시스템 테마를 알 수 없는 경우 밝은 테마가 사용됩니다."
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "선택"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "모두"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "다운로드만"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "업로드만"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "완료"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "중지됨"
 
@@ -341,40 +349,68 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "완료되지 않음"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr "필터"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "누락된 파일"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "모든 파일"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "활성"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "완료"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "미완료"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "다운로드에서 검색..."
 
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "정렬"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "오래된"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "최신순"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "크기별: 작은"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "크기별: 큰"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "상태별: 오름차순"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "상태별: 내림차순"
 
@@ -448,9 +484,7 @@ msgctxt "AppAndroidPermissionsManager|"
 msgid ""
 "%1 needs permission to show download progress within your system's "
 "notification panel."
-msgstr ""
-"%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요"
-"합니다."
+msgstr "%1은(는) 시스템의 알림 패널에 다운로드 진행 상황을 표시할 수 있는 권한이 필요합니다."
 
 #, qt-format
 msgctxt "AppDenyShutdownIfHasOpsWithNoResumeSupportSwitch|"
@@ -511,6 +545,11 @@ msgstr "원격 %1 (%2)에서 데이터를 가져오는 중..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "실패했습니다."
+
+#, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "선택: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -813,9 +852,7 @@ msgctxt "BrowserIntegrationSettings|"
 msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
-msgstr ""
-"%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭"
-"하세요"
+msgstr "%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭하세요"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -890,10 +927,8 @@ msgstr ""
 "\n"
 "%1에 다운로드를 추가하는데 도움이 됩니다.\n"
 "\n"
-"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제"
-"공하지 않는 추가 정보가 필요하기 때문에 이 브라우저를 통해서만 추가할 수 있습"
-"니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없"
-"습니다)."
+"이 중 일부 (예: Google Drive 다운로드)는 Android 시스템의 브라우저가 %1에 제공하지 않는 추가 정보가 필요하기 "
+"때문에 이 브라우저를 통해서만 추가할 수 있습니다 (또는 모든 브라우저에서 이러한 작업을 수행할 수 있는 보편적인 방법은 없습니다)."
 
 msgctxt "BrowserIntroDialog|"
 msgid "Continue"
@@ -979,10 +1014,8 @@ msgid ""
 "Lists of such trackers can be retrieved from different sources, e.g. from <a "
 "href='https://github.com/ngosang/trackerslist'>here</a>."
 msgstr ""
-"추가 추적기를 사용하면 경우에 따라 다운로드 속도가 향상될 수 있습니다. 이러"
-"한 추적기의 목록은 다른 소스에서 검색할 수 있습니다. 예를 들어, <a "
-"href='https://github.com/ngosang/trackerslist'>여기</a>에서 검색할 수 있습니"
-"다."
+"추가 추적기를 사용하면 경우에 따라 다운로드 속도가 향상될 수 있습니다. 이러한 추적기의 목록은 다른 소스에서 검색할 수 있습니다. 예를 "
+"들어, <a href='https://github.com/ngosang/trackerslist'>여기</a>에서 검색할 수 있습니다."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1013,24 +1046,28 @@ msgid "OK"
 msgstr "확인"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "다운로드 추가"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "다운로드"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "확인"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "문제 보고"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "이 사이트에서 다운로드가 허용되지 않습니다"
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "다운로드 추가"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "다운로드"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "확인"
+
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "다운로드 추가"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1223,6 +1260,22 @@ msgctxt "ConnectionsTab|"
 msgid "Connection count"
 msgstr "연결 수"
 
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "연결이 없습니다"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "호스트"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "포트"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Connection count"
+msgstr "연결 수"
+
 msgctxt "ConvertDestinationFilesExistsDialog|"
 msgid "Destination files already exists"
 msgstr "대상 파일이 이미 있습니다"
@@ -1296,8 +1349,7 @@ msgstr "어제"
 msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
-msgstr ""
-"내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
+msgstr "내부 오류가 발생했습니다. <br>%1을 다시 시작해야 나중에 사용할 수 있습니다."
 
 #, qt-format
 msgctxt "CrashReporter|"
@@ -1333,9 +1385,7 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
-msgstr ""
-"%1의 포터블 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
-"용할 수 있습니다."
+msgstr "%1의 포터블 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "It can be conveniently placed on a flash disk, for example."
@@ -1345,8 +1395,7 @@ msgctxt "CreatePortableDialog|"
 msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
-msgstr ""
-"이 버전을 만들 경로를 지정하십시오. 일부 이동식 드라이브의 폴더여야 합니다."
+msgstr "이 버전을 만들 경로를 지정하십시오. 일부 이동식 드라이브의 폴더여야 합니다."
 
 msgctxt "CreatePortableDialog|"
 msgid "Open"
@@ -1468,7 +1517,7 @@ msgstr "선택한 다운로드 삭제"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "Are you sure you want to delete the selected file(s)?"
-msgstr "선택한 파일을 삭제하시겠습니까?"
+msgstr "선택한 파일을 정말로 삭제하시겠습니까?"
 
 msgctxt "DeleteDownloadsDialogSimple|"
 msgid "OK"
@@ -1517,14 +1566,18 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "도크 아이콘에 전체 업로드 속도 표시"
 
-#, qt-format
-msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
-msgstr "%1을 사용해 주셔서 감사합니다!"
-
 msgctxt "DonateBannerStrip|"
 msgid "You help us grow and progress"
 msgstr "여러분의 도움 덕분에 저희는 성장하고 발전할 수 있습니다"
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr "%1 형성을 도와주세요"
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr "제안 및 지원"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -1533,9 +1586,7 @@ msgstr "다운로드 실패"
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
-msgstr ""
-"다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 "
-"시도하지 못했습니다."
+msgstr "다운로드를 재개할 수 없습니다. 다운로드 링크가 만료되었을 수 있습니다. 다시 시도하지 못했습니다."
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Please try to update the download link to resume."
@@ -1544,8 +1595,7 @@ msgstr "재개하려면 다운로드 링크를 업데이트하세요."
 msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Go to the website with the original download source and copy the renewed link"
-msgstr ""
-"원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
+msgstr "원본 다운로드 소스가 있는 웹 사이트로 이동하여 갱신된 링크를 복사합니다"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
@@ -1558,50 +1608,6 @@ msgstr "다운로드 업데이트"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "닫기"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "파일 확인 중"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "미디어 스트림 병합 중"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "대기열"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "정보 요청 중"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "일시 중지됨"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "파일 확인 중"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "미디어 스트림 병합 중"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "정보 요청 중"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "없음"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "대기 중"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "완료"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1727,6 +1733,34 @@ msgctxt "DownloadsItemTools|"
 msgid "File is missing"
 msgstr "파일이 없습니다"
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "파일 확인 중"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "미디어 스트림 병합 중"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "정보 요청 중"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "대기열"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "중지됨"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "완료"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "없음"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1796,6 +1830,10 @@ msgstr "다운로드 목록이 비어 있습니다. 새 다운로드 URL을 추�
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "원격 %1에 연결"
+
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "검색"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1968,18 +2006,6 @@ msgid "Choose files..."
 msgstr "파일 선택..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "높음"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "보통"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "낮음"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "파일 이름 바꾸기"
 
@@ -2110,34 +2136,6 @@ msgstr "일시 중지됨"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "알 수 없는 파일 크기"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "파일 확인 중"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "미디어 스트림 병합 중"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "정보 요청 중"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "없음"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "대기열"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "완료"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "없음"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2453,6 +2451,34 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "내림차순"
 
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "정렬"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "오래된"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "최신순"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "크기별: 작은"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "크기별: 큰"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "파일 유형:"
@@ -2593,6 +2619,14 @@ msgstr "낮음"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "완료"
+
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "이름"
+
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "우선 순위"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2760,6 +2794,26 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "로밍 중에 모바일 데이터를 사용하면 추가 요금이 발생할 수 있습니다."
 
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "테마 선택"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "시스템 테마를 알 수 없는 경우 밝은 테마가 사용됩니다."
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "UI 스타일"
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "새로운"
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "클래식"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "상태"
@@ -2864,6 +2918,19 @@ msgstr "파일"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "우선 순위"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "남은"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "저장 위치"
+
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "진행 상황"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2972,40 +3039,6 @@ msgstr "알 수 없음"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "원격 제어"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "브라우저"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "설정"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "지원 연락처"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "버그 보고서 제출"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "원격 %1에서 연결 끊기"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "원격 %1에 연결"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "프로그램 정보"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "종료"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3158,6 +3191,48 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "종료"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr "메뉴"
+
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "브라우저"
+
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "설정"
+
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "지원 연락처"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "버그 보고서 제출"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "원격 %1에서 연결 끊기"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "원격 %1에 연결"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "프로그램 정보"
+
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "종료"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "달팽이 모드는 다운로드 중단 없이 대역폭을 확보합니다."
@@ -3175,18 +3250,6 @@ msgstr[0] "%n개의 다운로드가 선택되었습니다."
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "전체 크기:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "낮음"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "중간"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "높음"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3221,10 +3284,8 @@ msgid ""
 "will resume at normal speed. Snail Mode is especially useful when your "
 "Internet is slow and you need to make a call, for example."
 msgstr ""
-"달팽이 모드는 활성 다운로드를 절전 모드로 전환하여 가능한 한 많은 인터넷 대역"
-"폭을 확보합니다. 전원을 끄면 모든 활성 다운로드가 정상 속도로 재개됩니다. 달"
-"팽이 모드는 예를 들어 인터넷 속도가 느리고 전화를 걸어야 할 때 특히 유용합니"
-"다."
+"달팽이 모드는 활성 다운로드를 절전 모드로 전환하여 가능한 한 많은 인터넷 대역폭을 확보합니다. 전원을 끄면 모든 활성 다운로드가 정상 "
+"속도로 재개됩니다. 달팽이 모드는 예를 들어 인터넷 속도가 느리고 전화를 걸어야 할 때 특히 유용합니다."
 
 msgctxt "MainToolbar|"
 msgid "Add new download..."
@@ -3763,9 +3824,7 @@ msgctxt "OsPermissionsDialog|"
 msgid ""
 "You can grant these permissions using the Application details screen within "
 "your system's settings."
-msgstr ""
-"시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니"
-"다."
+msgstr "시스템 설정의 응용 프로그램 세부 정보 화면에서 이러한 권한을 부여할 수 있습니다."
 
 msgctxt "OsPermissionsDialog|"
 msgid "Don't show again"
@@ -3799,6 +3858,10 @@ msgctxt "Page|"
 msgid "Connections"
 msgstr "연결"
 
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "확인"
+
 #. Browse for a file
 msgctxt "PickFileButton|"
 msgid "Browse..."
@@ -3816,17 +3879,14 @@ msgstr "%1 추가 기능을 사용하시겠습니까?"
 msgctxt "PluginBannerDialog|"
 msgid ""
 "We would like to ask you to help this add-on to reach its potential users."
-msgstr ""
-"이 추가 기능이 잠재적인 사용자에게 도달할 수 있도록 도와주시기 바랍니다."
+msgstr "이 추가 기능이 잠재적인 사용자에게 도달할 수 있도록 도와주시기 바랍니다."
 
 #, qt-format
 msgctxt "PluginBannerDialog|"
 msgid ""
 "Please use your favorite social networks and forums to let the other people "
 "know about %1 and %2."
-msgstr ""
-"선호하는 소셜 네트워크와 포럼을 이용하여 %1과 %2에 대해 다른 사람에게 알려주"
-"시기 바랍니다."
+msgstr "선호하는 소셜 네트워크와 포럼을 이용하여 %1과 %2에 대해 다른 사람에게 알려주시기 바랍니다."
 
 msgctxt "PluginBannerDialog|"
 msgid "Remind me later"
@@ -4059,8 +4119,8 @@ msgid ""
 "We do not collect your personal data and do not share data with third "
 "parties."
 msgstr ""
-"버그 보고서가 서버로 전송되어 %1 성능을 개선하는 데 사용됩니다. 당사는 사용자"
-"의 개인 데이터를 수집하지 않으며 제3자와 데이터를 공유하지 않습니다."
+"버그 보고서가 서버로 전송되어 %1 성능을 개선하는 데 사용됩니다. 당사는 사용자의 개인 데이터를 수집하지 않으며 제3자와 데이터를 "
+"공유하지 않습니다."
 
 msgctxt "PrivacyDialog|"
 msgid "I agree (do not show it again)"
@@ -5346,8 +5406,7 @@ msgctxt "SslDialog|"
 msgid ""
 "If you trust this host, select Accept to remember the key and carry on "
 "connecting."
-msgstr ""
-"이 호스트를 신뢰하는 경우 수락을 선택하여 키를 기억하고 연결을 계속합니다."
+msgstr "이 호스트를 신뢰하는 경우 수락을 선택하여 키를 기억하고 연결을 계속합니다."
 
 msgctxt "SslDialog|"
 msgid "Accept"
@@ -5463,6 +5522,43 @@ msgid "Submitting"
 msgstr "제출"
 
 msgctxt "SubmitBugReportDialog|"
+msgid "Submit"
+msgstr "제출"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "버그 보고서 제출"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "제목"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "설명"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "이름"
+
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "이메일"
+
+#, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "%1 로그 파일 첨부 (권장)"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "필수 필드"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "제출"
+
+msgctxt "SubmitBugReportPage|"
 msgid "Submit"
 msgstr "제출"
 
@@ -5598,6 +5694,39 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "다운로드 관리 로깅 사용"
 
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "낮음"
+
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "중간"
+
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "높음"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr "달팽이"
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr "트래픽 사용 모드"
+
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "달팽이 모드"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr "다운로드를 중단하지 않고도 최대한 많은 인터넷 대역폭을 확보할 수 있습니다"
+
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "트래픽 제한 변경"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "무제한"
@@ -5663,6 +5792,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "트래픽 제한 변경"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr "속도 제한 없음"
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr "최대 동시 다운로드"
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5671,10 +5808,6 @@ msgstr "%1보다 클 수 없습니다"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "새 다운로드"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "새 파일"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5711,9 +5844,26 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "크기: %1"
 
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "새 파일"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "다운로드"
+
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "새 파일"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
 msgstr "프로젝트 지원"
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr "%1을 사용해 주셔서 감사합니다!"
 
 msgctxt "UiCoreBase|"
 msgid "High"

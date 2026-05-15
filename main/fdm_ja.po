@@ -202,6 +202,18 @@ msgid "Arguments must contain %path% variable"
 msgstr "引数には変数の %path%  を含める必要があります"
 
 msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr "ログ記録を有効にする"
+
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "再起動が必要です"
+
+msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "既定の設定に戻す"
 
@@ -293,31 +305,27 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "高度な設定"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "テーマの選択"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "システムのテーマが不明な場合は、ライトテーマが適用されます。"
-
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "選択"
+
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "すべて"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "ダウンロードのみ"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "アップロードのみ"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "完了"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "中断"
 
@@ -341,40 +349,68 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "未完了"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr "フィルター"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "見つからないファイル"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "すべてのファイル"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "実行中"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "完了"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "未完了"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "ダウンロードリストを検索..."
 
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "並べ替え"
+
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "古い順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "新着順"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z 順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A 順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "サイズ別: 小さい順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "サイズ別: 大きい順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "ステータス別: 昇順"
 
-msgctxt "AllDownloadsSortModeButton|"
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "ステータス別: 降順"
 
@@ -509,6 +545,11 @@ msgstr "リモート %1 (%2) からデータを取得しています..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "失敗しました。"
+
+#, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "選択済み: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1005,24 +1046,28 @@ msgid "OK"
 msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "ダウンロードを追加"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "ダウンロード"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "問題の報告"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "このサイトのダウンロードは許可されていません"
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "ダウンロードを追加"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "ダウンロードを追加"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1212,6 +1257,22 @@ msgid "Port"
 msgstr "ポート"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "接続数"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "インターネット接続がありません"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "ホスト"
+
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "ポート"
+
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "接続数"
 
@@ -1505,14 +1566,18 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ドックアイコンに合計アップロード速度を表示する"
 
-#, qt-format
-msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
-msgstr ""
-
 msgctxt "DonateBannerStrip|"
 msgid "You help us grow and progress"
-msgstr ""
+msgstr "成長と前進に貢献しています"
+
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Help shape %1"
+msgstr "%1 に貢献"
+
+msgctxt "DonateBannerStrip|"
+msgid "Suggest & Support"
+msgstr "提案と支援"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -1543,50 +1608,6 @@ msgstr "更新のダウンロード"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "閉じる"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "ファイルを確認しています"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "メディアストリームを結合しています"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "キュー"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "情報を要求しています"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "一時停止"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "ファイルを確認しています"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "メディアストリームを結合しています"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "情報を要求しています"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "利用不可"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "キュー"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "完了"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1712,6 +1733,34 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "ディスクが見つかりません"
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "ファイルを確認しています"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "メディアストリームを結合しています"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "情報を要求しています"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "キュー"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "中断"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "完了"
+
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "利用不可"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1781,6 +1830,10 @@ msgstr "ダウンロードリストは空です。新規ダウンロード URL �
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "%1 にリモートで接続"
+
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "検索"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1953,18 +2006,6 @@ msgid "Choose files..."
 msgstr "ファイルを選択..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "高い"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "標準"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "低い"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "ファイル名の変更"
 
@@ -2095,34 +2136,6 @@ msgstr "一時停止"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "不明なファイルサイズ"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "ファイルを確認しています"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "メディアストリームを結合しています"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "情報を要求しています"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "利用不可"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "キュー"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "完了"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "利用不可"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2438,6 +2451,34 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "降順"
 
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "並べ替え"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "古い順"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "新着順"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z 順"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A 順"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "サイズ別: 小さい順"
+
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "サイズ別: 大きい順"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "ファイルタイプ:"
@@ -2578,6 +2619,14 @@ msgstr "低い"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "完了"
+
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "優先度"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2745,6 +2794,26 @@ msgctxt "GeneralSettings2|"
 msgid "Using mobile data while roaming may result in additional charges."
 msgstr "ローミング中にモバイルデータを使用すると、追加料金が発生する場合があります。"
 
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "テーマの選択"
+
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "システムのテーマが不明な場合は、ライトテーマが適用されます。"
+
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "UI スタイル"
+
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "新しい UI"
+
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "クラシック UI"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "ステータス"
@@ -2849,6 +2918,19 @@ msgstr "ファイル"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "優先度"
+
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "残り"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "保存先"
+
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "進行状況"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2957,40 +3039,6 @@ msgstr "不明なエラー"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "リモートコントロール"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "ブラウザー"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "設定"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "サポートへのお問い合わせ"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "バグレポートを送信"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "リモート %1 から切断"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "リモート %1 に接続"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "バージョン情報"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "終了"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3143,6 +3191,48 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "終了"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr "メニュー"
+
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "ブラウザー"
+
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "設定"
+
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "サポートへのお問い合わせ"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "バグレポートを送信"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "リモート %1 から切断"
+
+#, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "リモート %1 に接続"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "バージョン情報"
+
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "終了"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "「カタツムリモード」 はダウンロードを停止することなく、帯域幅を解放することができます。"
@@ -3160,18 +3250,6 @@ msgstr[0] "%n のダウンロードが選択されています。"
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "合計サイズ:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "低速"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "標準"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "高速"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3540,7 +3618,6 @@ msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "パスに無効な文字が含まれています"
 
-#, fuzzy
 msgctxt "MySearchField|"
 msgid "Search"
 msgstr "検索"
@@ -3779,6 +3856,10 @@ msgstr "ファイル"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "接続数"
+
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "OK"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -4793,7 +4874,7 @@ msgstr "任意のコードの実行を許可する。"
 
 msgctxt "QObject|"
 msgid "Launch Deno (JavaScript runtime)"
-msgstr ""
+msgstr "Deno (JavaScript ランタイム) を起動"
 
 msgctxt "QObject|"
 msgid "Installing..."
@@ -5443,6 +5524,43 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "送信"
 
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "バグレポートを送信"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "タイトル"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "名前"
+
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "メールアドレス"
+
+#, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "%1 のログファイルを添付 (推奨)"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "必須項目"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "送信中"
+
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "送信"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "字幕のダウンロード"
@@ -5575,6 +5693,39 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "ダウンロード管理ログを有効にする"
 
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "低速"
+
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "標準"
+
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "高速"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr "カタツムリ"
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr "トラフィック使用モード"
+
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "カタツムリモード"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr "ダウンロードを停止せずに、できるだけ多くのインターネット帯域幅を解放します"
+
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "トラフィック制限を変更する"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "無制限"
@@ -5640,6 +5791,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "トラフィック制限を変更する"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr "速度制限なし"
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr "最大同時ダウンロード数"
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5650,16 +5809,12 @@ msgid "New download"
 msgstr "新規ダウンロード"
 
 msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "新規ファイル"
-
-msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
 msgstr "ダウンロード"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
-msgstr "に保存"
+msgstr "保存先"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "File name"
@@ -5688,9 +5843,26 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "サイズ: %1"
 
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "新規ファイル"
+
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "新規ファイル"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
-msgstr ""
+msgstr "プロジェクトを支援"
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
+msgstr "%1 のご利用ありがとうございます!"
 
 msgctxt "UiCoreBase|"
 msgid "High"

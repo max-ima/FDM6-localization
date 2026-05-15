@@ -203,6 +203,20 @@ msgctxt "AdvancedSettings|"
 msgid "Arguments must contain %path% variable"
 msgstr "آرگیومنٹس میں %path% ویری ایبل ہونا ضروری ہے"
 
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Troubleshooting"
+msgstr "خرابیوں کا حل"
+
+msgctxt "AdvancedSettings|"
+msgid "Enable logging"
+msgstr ""
+
+#, fuzzy
+msgctxt "AdvancedSettings|"
+msgid "Restart is required"
+msgstr "دوبارہ شروع کرنا ضروری ہے"
+
 msgctxt "AdvancedSettings|"
 msgid "Go back to default settings"
 msgstr "ڈیفالٹ ترتیبات پر واپس جائیں"
@@ -296,31 +310,31 @@ msgctxt "AdvancedSettings|"
 msgid "Advanced settings"
 msgstr "اعلی درجے کی ترتیبات"
 
-msgctxt "AdvancedSettings|"
-msgid "Choose theme"
-msgstr "تھیم منتخب کریں"
-
-msgctxt "AdvancedSettings|"
-msgid "A light theme will be used, if the system theme is unknown."
-msgstr "اگر سسٹم تھیم نامعلوم ہو تو لائٹ تھیم استعمال کیا جائے گا۔"
-
+#, fuzzy
 msgctxt "AllDownloadsCheckBoxButton|"
+msgid "Select"
+msgstr "منتخب کریں"
+
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "All"
 msgstr "تمام"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Downloads only"
 msgstr "صرف ڈاؤن لوڈز"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+#, fuzzy
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Uploads only"
 msgstr "صرف اپ لوڈز"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Completed"
 msgstr "مکمل"
 
-msgctxt "AllDownloadsCheckBoxButton|"
+msgctxt "AllDownloadsCheckBoxButtonMenuHelper|"
 msgid "Stopped"
 msgstr "روکے گئے"
 
@@ -344,40 +358,81 @@ msgctxt "AllDownloadsFilterModeButton|"
 msgid "Uncompleted"
 msgstr "نامکمل"
 
+msgctxt "AllDownloadsFilterModeButton|"
+msgid "Filter"
+msgstr ""
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Missing Files"
+msgstr "گمشدہ فائلیں"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "All files"
+msgstr "تمام فائلیں"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Active"
+msgstr "فعال"
+
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Completed"
+msgstr "مکمل"
+
+#, fuzzy
+msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
+msgid "Uncompleted"
+msgstr "نامکمل"
+
 msgctxt "AllDownloadsSearchField_V2|"
 msgid "Search in downloads..."
 msgstr "ڈاؤن لوڈز میں تلاش کریں..."
 
+#, fuzzy
 msgctxt "AllDownloadsSortModeButton|"
+msgid "Sort"
+msgstr "ترتیب دیں"
+
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Old"
 msgstr "پرانا"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Newest"
 msgstr "تازہ ترین"
 
 #. sort by title mode
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "A-Z"
 msgstr "A-Z"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "Z-A"
 msgstr "Z-A"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: small"
 msgstr "سائز کے لحاظ سے: چھوٹا"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By size: large"
 msgstr "سائز کے لحاظ سے: بڑا"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: ascending"
 msgstr "حالت کے لحاظ سے: صعودی ترتیب"
 
-msgctxt "AllDownloadsSortModeButton|"
+#, fuzzy
+msgctxt "AllDownloadsSortModeButtonMenuHelper|"
 msgid "By status: descending"
 msgstr "حالت کے لحاظ سے: نزولی ترتیب"
 
@@ -516,6 +571,11 @@ msgstr "ریموٹ %1 (%2) سے ڈیٹا حاصل کیا جا رہا ہے..."
 msgctxt "AppRcClientLoadManager|"
 msgid "Failed."
 msgstr "ناکام ہو گیا۔"
+
+#, fuzzy, qt-format
+msgctxt "AppWindowHeader|"
+msgid "Selected: %1"
+msgstr "منتخب شدہ: %1"
 
 msgctxt "AuthDialog|"
 msgid "Authentication required"
@@ -1017,24 +1077,31 @@ msgid "OK"
 msgstr "ٹھیک ہے"
 
 msgctxt "BuildDownloadPage|"
-msgid "Add download"
-msgstr "ڈاؤن لوڈ شامل کریں"
-
-msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "ڈاؤن لوڈ"
-
-msgctxt "BuildDownloadPage|"
-msgid "OK"
-msgstr "ٹھیک ہے"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
 msgstr "مسئلے کی اطلاع دیں"
 
-msgctxt "BuildDownloadPage|"
-msgid "Downloading from this site is not allowed"
-msgstr "اس ویب سائٹ سے ڈاؤن لوڈ کرنے کی اجازت نہیں ہے"
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Add download"
+msgstr "ڈاؤن لوڈ شامل کریں"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader|"
+msgid "Download"
+msgstr "ڈاؤن لوڈ"
+
+msgctxt "BuildDownloadPageHeader|"
+msgid "OK"
+msgstr "ٹھیک ہے"
+
+#, fuzzy
+msgctxt "BuildDownloadPageHeader_V2|"
+msgid "Add download"
+msgstr "ڈاؤن لوڈ شامل کریں"
 
 #, qt-format
 msgctxt "BuildDownloadTools|"
@@ -1229,6 +1296,26 @@ msgid "Port"
 msgstr "پورٹ"
 
 msgctxt "ConnectionsTab|"
+msgid "Connection count"
+msgstr "کنکشن کی تعداد"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "There are no connections"
+msgstr "کوئی کنکشن نہیں ہے"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Host"
+msgstr "میزبان"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
+msgid "Port"
+msgstr "پورٹ"
+
+#, fuzzy
+msgctxt "ConnectionsTab_V2|"
 msgid "Connection count"
 msgstr "کنکشن کی تعداد"
 
@@ -1528,13 +1615,17 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "ڈاک (Dock) آئیکن میں کل اپ لوڈ کی رفتار دکھائیں"
 
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 #, qt-format
 msgctxt "DonateBannerStrip|"
-msgid "Thank you for using %1!"
+msgid "Help shape %1"
 msgstr ""
 
 msgctxt "DonateBannerStrip|"
-msgid "You help us grow and progress"
+msgid "Suggest & Support"
 msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
@@ -1569,50 +1660,6 @@ msgstr "ڈاؤن لوڈ اپ ڈیٹ کریں"
 msgctxt "DownloadExpiredDialog|"
 msgid "Close"
 msgstr "بند کریں"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Checking files"
-msgstr "فائلوں کی جانچ پڑتال جاری ہے"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Merging media streams"
-msgstr "میڈیا اسٹریمز کو ضم کیا جا رہا ہے"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Queued"
-msgstr "قطار میں ہے"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Requesting info"
-msgstr "معلومات طلب کی جا رہی ہیں"
-
-msgctxt "DownloadProgressBar_V2|"
-msgid "Paused"
-msgstr "روکا گیا (Paused)"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Checking files"
-msgstr "فائلوں کی جانچ پڑتال جاری ہے"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Merging media streams"
-msgstr "میڈیا اسٹریمز کو ضم کیا جا رہا ہے"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Requesting info"
-msgstr "معلومات طلب کی جا رہی ہیں"
-
-msgctxt "DownloadStatus_V2|"
-msgid "n/a"
-msgstr "دستیاب نہیں"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Queued"
-msgstr "قطار میں ہے"
-
-msgctxt "DownloadStatus_V2|"
-msgid "Completed"
-msgstr "مکمل"
 
 msgctxt "DownloadStatus_V2|"
 msgid "Remaining"
@@ -1738,6 +1785,36 @@ msgctxt "DownloadsItemTools|"
 msgid "Disk is missing"
 msgstr "ڈسک غائب ہے"
 
+msgctxt "DownloadsItemTools2|"
+msgid "Checking files"
+msgstr "فائلوں کی جانچ پڑتال جاری ہے"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Merging media streams"
+msgstr "میڈیا اسٹریمز کو ضم کیا جا رہا ہے"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Requesting info"
+msgstr "معلومات طلب کی جا رہی ہیں"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "Queued"
+msgstr "قطار میں ہے"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Stopped"
+msgstr "روکا گیا"
+
+msgctxt "DownloadsItemTools2|"
+msgid "Completed"
+msgstr "مکمل"
+
+#, fuzzy
+msgctxt "DownloadsItemTools2|"
+msgid "n/a"
+msgstr "دستیاب نہیں"
+
 #, qt-format
 msgctxt "DownloadsList|"
 msgid "duplicates (%1)"
@@ -1807,6 +1884,11 @@ msgstr "ڈاؤن لوڈ کی فہرست خالی ہے۔ نیا ڈاؤن لوڈ �
 msgctxt "DownloadsPage|"
 msgid "Connect to remote %1"
 msgstr "ریموٹ %1 سے منسلک ہوں"
+
+#, fuzzy
+msgctxt "DownloadsPageHeader_V2|"
+msgid "Search"
+msgstr "تلاش کریں"
 
 msgctxt "DownloadsSettings|"
 msgid "Downloads settings"
@@ -1979,18 +2061,6 @@ msgid "Choose files..."
 msgstr "فائلیں منتخب کریں..."
 
 msgctxt "DownloadsViewItemContextMenu|"
-msgid "High"
-msgstr "زیادہ"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Normal"
-msgstr "عام"
-
-msgctxt "DownloadsViewItemContextMenu|"
-msgid "Low"
-msgstr "کم"
-
-msgctxt "DownloadsViewItemContextMenu|"
 msgid "Rename file"
 msgstr "فائل کا نام تبدیل کریں"
 
@@ -2121,34 +2191,6 @@ msgstr "روکا گیا"
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Unknown file size"
 msgstr "نامعلوم فائل سائز"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Checking files"
-msgstr "فائلوں کی جانچ پڑتال جاری ہے"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Merging media streams"
-msgstr "میڈیا اسٹریمز کو ضم کیا جا رہا ہے"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Requesting info"
-msgstr "معلومات طلب کی جا رہی ہیں"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "n/a"
-msgstr "دستیاب نہیں"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Queued"
-msgstr "قطار میں ہے"
-
-msgctxt "DownloadsViewItemStatus_V2|"
-msgid "Completed"
-msgstr "مکمل"
-
-msgctxt "DownloadsViewItem_V2|"
-msgid "n/a"
-msgstr "دستیاب نہیں"
 
 msgctxt "DownloadsViewItem_V2|"
 msgid "Priority"
@@ -2466,6 +2508,41 @@ msgctxt "FilePickerSortDialog|"
 msgid "Descending"
 msgstr "نزولی ترتیب"
 
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Sort"
+msgstr "ترتیب دیں"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Old"
+msgstr "پرانا"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Newest"
+msgstr "تازہ ترین"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "A-Z"
+msgstr "A-Z"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "Z-A"
+msgstr "Z-A"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: small"
+msgstr "سائز کے لحاظ سے: چھوٹا"
+
+#, fuzzy
+msgctxt "FilePickerSortModeDrawer_V2|"
+msgid "By size: large"
+msgstr "سائز کے لحاظ سے: بڑا"
+
 msgctxt "FileType|"
 msgid "File type:"
 msgstr "فائل کی قسم:"
@@ -2606,6 +2683,16 @@ msgstr "کم"
 msgctxt "FilesTreeItem_V2|"
 msgid "Completed"
 msgstr "مکمل"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Name"
+msgstr "نام"
+
+#, fuzzy
+msgctxt "FilesTree_V2|"
+msgid "Priority"
+msgstr "ترجیح"
 
 msgctxt "FixedDownloadFolderCombobox|"
 msgid "Macros"
@@ -2774,6 +2861,31 @@ msgid "Using mobile data while roaming may result in additional charges."
 msgstr ""
 "رومنگ کے دوران موبائل ڈیٹا استعمال کرنے کے نتیجے میں اضافی چارجز لگ سکتے ہیں۔"
 
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Choose theme"
+msgstr "تھیم منتخب کریں"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "A light theme will be used, if the system theme is unknown."
+msgstr "اگر سسٹم تھیم نامعلوم ہو تو لائٹ تھیم استعمال کیا جائے گا۔"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "UI style"
+msgstr "UI اسٹائل"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "New"
+msgstr "نیا"
+
+#, fuzzy
+msgctxt "GeneralSettings2|"
+msgid "Classic"
+msgstr "کلاسک"
+
 msgctxt "GeneralTab|"
 msgid "Status"
 msgstr "حالت"
@@ -2878,6 +2990,21 @@ msgstr "فائل"
 msgctxt "GeneralTab_V2|"
 msgid "Priority"
 msgstr "ترجیح"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Remaining"
+msgstr "باقی"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Saved in"
+msgstr "یہاں محفوظ کیا گیا"
+
+#, fuzzy
+msgctxt "GeneralTab_V2|"
+msgid "Progress"
+msgstr "پیشرفت"
 
 msgctxt "HashAlgorithmCombobox|"
 msgid "MD5"
@@ -2986,40 +3113,6 @@ msgstr "نامعلوم"
 msgctxt "LeftDrawer|"
 msgid "remote control"
 msgstr "ریموٹ کنٹرول"
-
-msgctxt "LeftDrawer|"
-msgid "Browser"
-msgstr "براؤزر"
-
-msgctxt "LeftDrawer|"
-msgid "Settings"
-msgstr "ترتیبات"
-
-msgctxt "LeftDrawer|"
-msgid "Contact support"
-msgstr "سپورٹ سے رابطہ کریں"
-
-msgctxt "LeftDrawer|"
-msgid "Submit a bug report"
-msgstr "بگ رپورٹ جمع کروائیں"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Disconnect from remote %1"
-msgstr "ریموٹ %1 سے منقطع ہوں"
-
-#, qt-format
-msgctxt "LeftDrawer|"
-msgid "Connect to remote %1"
-msgstr "ریموٹ %1 سے منسلک ہوں"
-
-msgctxt "LeftDrawer|"
-msgid "About"
-msgstr "بارے میں"
-
-msgctxt "LeftDrawer|"
-msgid "Quit"
-msgstr "بند کریں"
 
 msgctxt "LeftDrawer|"
 msgid "Add new download"
@@ -3172,6 +3265,52 @@ msgctxt "MainMenu|"
 msgid "Quit"
 msgstr "بند کریں"
 
+msgctxt "MainMenuDrawer_V2|"
+msgid "Menu"
+msgstr ""
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Browser"
+msgstr "براؤزر"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Settings"
+msgstr "ترتیبات"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Contact support"
+msgstr "سپورٹ سے رابطہ کریں"
+
+msgctxt "MainMenuHelper|"
+msgid "Submit a bug report"
+msgstr "بگ رپورٹ جمع کروائیں"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Disconnect from remote %1"
+msgstr "ریموٹ %1 سے منقطع ہوں"
+
+#, fuzzy, qt-format
+msgctxt "MainMenuHelper|"
+msgid "Connect to remote %1"
+msgstr "ریموٹ %1 سے منسلک ہوں"
+
+msgctxt "MainMenuHelper|"
+msgid "Support development"
+msgstr ""
+
+msgctxt "MainMenuHelper|"
+msgid "About"
+msgstr "بارے میں"
+
+#, fuzzy
+msgctxt "MainMenuHelper|"
+msgid "Quit"
+msgstr "بند کریں"
+
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "سست رفتار موڈ ڈاون لوڈز کو روکے بغیر بینڈوتھ خالی کرتا ہے۔"
@@ -3190,18 +3329,6 @@ msgstr[1] "%n ڈاؤن لوڈز منتخب کیے گئے۔"
 msgctxt "MainStatusBar|"
 msgid "Total size:"
 msgstr "کل سائز:"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Low"
-msgstr "کم"
-
-msgctxt "MainStatusBar_V2|"
-msgid "Medium"
-msgstr "درمیانی"
-
-msgctxt "MainStatusBar_V2|"
-msgid "High"
-msgstr "زیادہ"
 
 msgctxt "MainStatusBar_V2|"
 msgid "Unlimited"
@@ -3818,6 +3945,10 @@ msgstr "فائلیں"
 msgctxt "Page|"
 msgid "Connections"
 msgstr "کنکشنز"
+
+msgctxt "PageHeaderWithBackArrow|"
+msgid "OK"
+msgstr "ٹھیک ہے"
 
 #. Browse for a file
 msgctxt "PickFileButton|"
@@ -5496,6 +5627,50 @@ msgctxt "SubmitBugReportDialog|"
 msgid "Submit"
 msgstr "جمع کرائیں"
 
+msgctxt "SubmitBugReportPage|"
+msgid "Submit a bug report"
+msgstr "بگ رپورٹ جمع کرائیں"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Title"
+msgstr "عنوان"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Description"
+msgstr "تفصیل"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Name"
+msgstr "نام"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "E-mail"
+msgstr "ای میل"
+
+#, fuzzy, qt-format
+msgctxt "SubmitBugReportPage|"
+msgid "Attach %1 log files (recommended)"
+msgstr "%1 لاگ فائلیں منسلک کریں (تجویز کردہ)"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Required fields"
+msgstr "ضروری فیلڈز"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submitting"
+msgstr "جمع کرایا جا رہا ہے"
+
+#, fuzzy
+msgctxt "SubmitBugReportPage|"
+msgid "Submit"
+msgstr "جمع کرائیں"
+
 msgctxt "Subtitles|"
 msgid "Download subtitles"
 msgstr "سب ٹائٹلز ڈاؤن لوڈ کریں"
@@ -5630,6 +5805,42 @@ msgctxt "TroubleshootingSettings|"
 msgid "Enable downloads management logging"
 msgstr "ڈاؤن لوڈ مینجمنٹ لاگنگ فعال کریں"
 
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "Low"
+msgstr "کم"
+
+msgctxt "TumButtonHelper|"
+msgid "Medium"
+msgstr "درمیانہ"
+
+#, fuzzy
+msgctxt "TumButtonHelper|"
+msgid "High"
+msgstr "زیادہ"
+
+msgctxt "TumButtonHelper|"
+msgid "Snail"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Traffic usage mode"
+msgstr ""
+
+msgctxt "TumButton_V2|"
+msgid "Snail mode"
+msgstr "اسنیل موڈ"
+
+msgctxt "TumButton_V2|"
+msgid ""
+"Frees up as much Internet bandwidth as possible without stopping downloads"
+msgstr ""
+
+#, fuzzy
+msgctxt "TumButton_V2|"
+msgid "Change traffic limits"
+msgstr "ٹریفک کی حدود تبدیل کریں"
+
 msgctxt "TumComboBox|"
 msgid "Unlimited"
 msgstr "لا محدود"
@@ -5695,6 +5906,14 @@ msgctxt "TumModeDialog|"
 msgid "Change traffic limits"
 msgstr "ٹریفک کی حدود تبدیل کریں"
 
+msgctxt "TumRadioButton_V2|"
+msgid "No speed limit"
+msgstr ""
+
+msgctxt "TumRadioButton_V2|"
+msgid "Maximum parallel downloads"
+msgstr ""
+
 #, qt-format
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
@@ -5703,10 +5922,6 @@ msgstr "%1 سے زیادہ نہیں ہو سکتا"
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"
 msgstr "نیا ڈاؤن لوڈ"
-
-msgctxt "TuneAndAddDownloadPage|"
-msgid "New file"
-msgstr "نئی فائل"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
@@ -5743,8 +5958,28 @@ msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "سائز: %1"
 
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "New file"
+msgstr "نئی فائل"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader|"
+msgid "Download"
+msgstr "ڈاؤن لوڈ"
+
+#, fuzzy
+msgctxt "TuneAndAddDownloadPageHeader_V2|"
+msgid "New file"
+msgstr "نئی فائل"
+
 msgctxt "UiCoreBase|"
 msgid "Support the project"
+msgstr ""
+
+#, qt-format
+msgctxt "UiCoreBase|"
+msgid "Thank you for using %1!"
 msgstr ""
 
 msgctxt "UiCoreBase|"

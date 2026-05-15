@@ -209,7 +209,7 @@ msgstr "Odpravljanje težav"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable logging"
-msgstr ""
+msgstr "Omogoči beleženje"
 
 #, fuzzy
 msgctxt "AdvancedSettings|"
@@ -360,7 +360,7 @@ msgstr "Nedokončano"
 
 msgctxt "AllDownloadsFilterModeButton|"
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #, fuzzy
 msgctxt "AllDownloadsFilterModeButtonMenuHelper|"
@@ -1624,11 +1624,11 @@ msgstr "Pomagate nam rasti in napredovati"
 #, qt-format
 msgctxt "DonateBannerStrip|"
 msgid "Help shape %1"
-msgstr ""
+msgstr "Pomagajte oblikovati %1"
 
 msgctxt "DonateBannerStrip|"
 msgid "Suggest & Support"
-msgstr ""
+msgstr "Predlogi & Podpora"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
@@ -3275,7 +3275,7 @@ msgstr "Zapri"
 
 msgctxt "MainMenuDrawer_V2|"
 msgid "Menu"
-msgstr ""
+msgstr "Meni"
 
 #, fuzzy
 msgctxt "MainMenuHelper|"
@@ -3308,7 +3308,7 @@ msgstr "Povezava z oddaljenim %1"
 
 msgctxt "MainMenuHelper|"
 msgid "Support development"
-msgstr ""
+msgstr "Podpora razvoju"
 
 msgctxt "MainMenuHelper|"
 msgid "About"
@@ -5033,7 +5033,7 @@ msgstr "QIODevice::Append ni podprt za GZIP"
 
 msgctxt "QuaGzipFile|"
 msgid "Opening gzip for both reading and writing is not supported"
-msgstr "Odpiranje gzip za branje in pisanje ni podprto."
+msgstr "Odpiranje gzip za branje in pisanje ni podprto"
 
 msgctxt "QuaGzipFile|"
 msgid "You can open a gzip either for reading or for writing. Which is it?"
@@ -5579,11 +5579,11 @@ msgstr "Prekliči"
 
 msgctxt "StopDownloadDialog|"
 msgid "This download can't be resumed after pausing"
-msgstr "Ta prenos ni mogoče nadaljevati po prekinitvi."
+msgstr "Ta prenos ni mogoče nadaljevati po prekinitvi"
 
 msgctxt "StopDownloadDialog|"
 msgid "The download(s) below can't be resumed after pausing"
-msgstr "Prenosov spodaj ni mogoče nadaljevati po prekinitvi."
+msgstr "Prenosov spodaj ni mogoče nadaljevati po prekinitvi"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
@@ -5708,7 +5708,7 @@ msgstr "Temna"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Prosimo, dajte kameri dovoljenje za uporabo skenerja QR kod."
+msgstr "Prosimo, dajte kameri dovoljenje za uporabo skenerja QR kod"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -5823,11 +5823,11 @@ msgstr "Visoko"
 
 msgctxt "TumButtonHelper|"
 msgid "Snail"
-msgstr ""
+msgstr "Polž"
 
 msgctxt "TumButton_V2|"
 msgid "Traffic usage mode"
-msgstr ""
+msgstr "Način porabe prometa"
 
 #, fuzzy
 msgctxt "TumButton_V2|"
@@ -5838,6 +5838,7 @@ msgctxt "TumButton_V2|"
 msgid ""
 "Frees up as much Internet bandwidth as possible without stopping downloads"
 msgstr ""
+"Sprosti čim več internetne pasovne širine, ne da bi pri tem prekinil prenose"
 
 #, fuzzy
 msgctxt "TumButton_V2|"
@@ -5911,11 +5912,11 @@ msgstr "Spremeni omejitve prometa"
 
 msgctxt "TumRadioButton_V2|"
 msgid "No speed limit"
-msgstr ""
+msgstr "Brez omejitve hitrosti"
 
 msgctxt "TumRadioButton_V2|"
 msgid "Maximum parallel downloads"
-msgstr ""
+msgstr "Največje število hkratnih prenosov"
 
 #, qt-format
 msgctxt "TumSettingTextField|"
